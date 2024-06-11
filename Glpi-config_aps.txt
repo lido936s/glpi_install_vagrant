@@ -1,0 +1,13 @@
+To set up GLPI in the /var/www/html/index.html file, you will need to perform the following steps:
+
+1-Extract the GLPI files: Download the GLPI package from the official website or use a package manager to install it. 
+Extract the contents of the package to the /var/www/html directory.
+
+2-Configure the database: Create a MySQL database for GLPI and create a user with the necessary privileges. 
+Update the /var/www/html/glpi/config/config.php file with the database credentials.
+
+3-Configure the local_define.php file: Update the /var/www/html/glpi/config/local_define.php file with the appropriate values for the database connection.
+
+4-Set up the GLPI application: Navigate to http://localhost/glpi in your web browser to complete the GLPI setup process. 
+Follow the on-screen instructions to configure the application.
+
